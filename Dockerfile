@@ -22,7 +22,11 @@ RUN apt-get -y install \
   php5-gd \
   pkg-config \
   python \
+  python-pip \
+  python-setuptools \
   python3 \
+  python3-pip \
+  python3-setuptools \
   sqlite3 \
   vim \
   wget \
