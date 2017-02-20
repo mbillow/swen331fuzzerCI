@@ -51,5 +51,7 @@ RUN ruby -v
 
 # Install Fuzzer deps
 RUN gem install mechanize
+RUN pip install requests beautifulsoup4
+RUN pip3 install requests beautifulsoup4
 
 CMD ["/run.sh"]
